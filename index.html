@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Photos</title>
+        <link rel="stylesheet" href="./style.css" />
+
+    </head>
+    <body>
+        <div class="photos">
+            <img onclick="main.src = this.src" src="./images/1.jpeg" alt="..." />
+            <img onclick="main.src = this.src" src="./images/2.jpeg" alt="..." />
+            <img onclick="main.src = this.src" src="./images/3.jpeg" alt="..." />
+        </div>
+        <div class="main">
+            <img src="./images/1.jpeg" name="main" alt="..." />
+        </div>
+        <div class="photos">
+            <img onmouseenter="main.src = this.src" src="./images/1.jpeg" alt="..." />
+            <img onmouseenter="main.src = this.src" src="./images/2.jpeg" alt="..." />
+            <img onmouseenter="main.src = this.src" src="./images/3.jpeg" alt="..." />
+        </div>
+        <button id="btn">^</button>
+    </body>
+</html>
